@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m59KQ62ILxZc0xDGCx6irXqh4Av8JODzB7HeW7xY8FM=",
+  "Source": "ThucTap.Api",
+  "BasePath": "_content/ThucTap.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

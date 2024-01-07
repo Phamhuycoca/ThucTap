@@ -1,0 +1,14 @@
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\bin\Debug\net6.0\ThucTap.Domain.deps.json
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\bin\Debug\net6.0\ThucTap.Domain.runtimeconfig.json
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\bin\Debug\net6.0\ThucTap.Domain.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\bin\Debug\net6.0\ThucTap.Domain.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.csproj.AssemblyReference.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.AssemblyInfoInputs.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.AssemblyInfo.cs
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.csproj.CoreCompileInputs.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\refint\ThucTap.Domain.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ThucTap.Domain.genruntimeconfig.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Domain\obj\Debug\net6.0\ref\ThucTap.Domain.dll

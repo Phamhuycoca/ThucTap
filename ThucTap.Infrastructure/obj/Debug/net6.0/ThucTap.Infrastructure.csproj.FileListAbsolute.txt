@@ -1,0 +1,17 @@
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Infrastructure.deps.json
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Infrastructure.runtimeconfig.json
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Infrastructure.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Infrastructure.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Domain.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\bin\Debug\net6.0\ThucTap.Domain.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.csproj.AssemblyReference.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.AssemblyInfoInputs.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.AssemblyInfo.cs
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.csproj.CoreCompileInputs.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.csproj.CopyComplete
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\refint\ThucTap.Infrastructure.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ThucTap.Infrastructure.genruntimeconfig.cache
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Infrastructure\obj\Debug\net6.0\ref\ThucTap.Infrastructure.dll
