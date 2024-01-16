@@ -10,6 +10,7 @@ namespace ThucTap.Domain.Entities
     {
         public int HinhAnhBlogId { get; set; }
         public string? HinhAnhBlogUrl{ get; set; }
+        public string? UrlApi {  get; set; }
         public int NoiDungBlogId { get; set; }
         public NoiDungBlog? noiDungBlog { get; set; }
     }

@@ -46,5 +46,10 @@ namespace ThucTap.Api.Controllers.Khoa
             }
             return BadRequest("Không thể thực hiện thao tác");
         }
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            return Ok(_service.GetById(id));
+        }
     }
 }

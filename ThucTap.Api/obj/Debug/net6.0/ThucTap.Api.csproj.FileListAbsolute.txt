@@ -73,3 +73,10 @@ F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\obj\Debug\net6.0\ref\ThucTap.Api.dll
 F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\AutoMapper.dll
 F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\ThucTap.Application.dll
 F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\ThucTap.Application.pdb
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\ThucTap.Api.staticwebassets.runtime.json
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\DuAnNho\DoHoangLong\ThucTap\ThucTap.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

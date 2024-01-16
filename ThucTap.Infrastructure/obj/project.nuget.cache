@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FiZgcENEKbEorJzMyhp1wKa3f8yfBMS6D71qDvTChvW8MavWU5xzABBPdEntfskB59BC6Yy5zynZsHbZJiN3qg==",
+  "dgSpecHash": "5qTCZRf/+scwQeeU1xCua7BL559JdRFtYLJmnsLqQwSHCShixzmsLKty2Dj/KMV11SMULGqkk+vG/DiIxoPPDg==",
   "success": true,
   "projectFilePath": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Infrastructure\\ThucTap.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

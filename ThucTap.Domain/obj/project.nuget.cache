@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HsP6t8kGt2dCwSxHKC9+E5oK/xc++udS6hzhOzQXqofeOG+mAReSBi24gNCcnGxYaQMCXrDMxgZ7FB3myQ5YRw==",
+  "dgSpecHash": "pYwfYpvE6zZGq1PEgIZONqMAeXVNj7wJNKS4i7JULupxbh7NIcynQOFFHqBVzA7kCam6rAg24dLI9Cz/9jfUeg==",
   "success": true,
   "projectFilePath": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Domain\\ThucTap.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.25\\microsoft.entityframeworkcore.abstractions.6.0.25.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.25\\microsoft.entityframeworkcore.analyzers.6.0.25.nupkg.sha512",

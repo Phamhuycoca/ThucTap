@@ -24,6 +24,10 @@ namespace ThucTap.Application.Modules
             services.AddSingleton(mapper);
             services.AddScoped<IKhoaService, KhoaService>();
             services.AddScoped<IMonService, MonService>();
+            services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<INoiDungBlogService, NoiDungBlogService>();
+            services.AddScoped<IHinhAnhBlogService, HinhAnhBlogService>();
+            services.AddScoped<ITaiKhoanService, TaiKhoanService>();
             return services;
         }
     }

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ThucTap.Application.Dto;
 using ThucTap.Domain.Entities;
+using ThucTap.Domain.ViewModels;
 
 namespace ThucTap.Application.Mapper
 {
@@ -18,6 +19,10 @@ namespace ThucTap.Application.Mapper
             CreateMap<Mon, MonDto>().ReverseMap();
             CreateMap<HinhAnhBaiViet, HinhAnhBaiVietDto>().ReverseMap();
             CreateMap<TaiKhoan, TaiKhoanDto>().ReverseMap();
+            CreateMap<Blog, BlogDto>().ReverseMap();
+            CreateMap<NoiDungBlog, NoiDungBlogDto>().ReverseMap();
+            CreateMap<HinhAnhBlog, HinhAnhBlogDto>().ReverseMap();
+            CreateMap<BlogList, BlogListDto>().ReverseMap();
         }
     }
 }

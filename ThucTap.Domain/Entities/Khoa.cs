@@ -12,5 +12,6 @@ namespace ThucTap.Domain.Entities
         public string? TenKhoa {  get; set; }
         public ICollection<Mon>? mons { get; set; }
         public ICollection<TaiKhoan>? taiKhoans { get; set; }
+        public ICollection<Blog>? blogs{ get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ThucTap.Application.Dto;
 using ThucTap.Application.IService;
@@ -7,6 +8,7 @@ namespace ThucTap.Api.Controllers.Mon
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class MonController : ControllerBase
     {
         private readonly IMonService _service;
@@ -45,6 +47,11 @@ namespace ThucTap.Api.Controllers.Mon
                 return Ok("Xóa thông tin thành công");
             }
             return BadRequest("Không thể thực hiện thao tác");
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            return Ok(_service.GetById(id));
         }
     }
 }

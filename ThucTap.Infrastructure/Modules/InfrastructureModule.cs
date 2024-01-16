@@ -15,6 +15,10 @@ namespace ThucTap.Infrastructure.Modules
         {
             services.AddScoped<IKhoaRepo, KhoaRepo>();
             services.AddScoped<IMonRepo, MonRepo>();
+            services.AddScoped<IBlogRepo, BlogRepo>();
+            services.AddScoped<INoiDungBlogRepo, NoiDungBlogRepo>();
+            services.AddScoped<IHinhAnhBlogRepo, HinhAnhBlogRepo>();
+            services.AddScoped<ITaiKhoanRepo, TaiKhoanRepo>();
             return services;
         }
     }
