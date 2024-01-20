@@ -12,6 +12,7 @@ using ThucTap.Application.IService;
 using ThucTap.Domain.Entities;
 using ThucTap.Domain.Repositories;
 using ThucTap.Domain.ViewModels;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace ThucTap.Application.Service
 {
@@ -62,12 +63,15 @@ namespace ThucTap.Application.Service
 
         public bool Delete(int id)
         {
+            deleteImage(id);
             return _repo.Delete(id);
         }
 
         public List<BaiVietDto> getAll()
         {
-            return _mapper.Map<List<BaiVietDto>>(_repo.getAll());
+            DateTime daysAgo = DateTime.Now.AddDays(-14);
+            var query= _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x=>x.NgayDang>=daysAgo).OrderByDescending(x=>x.BaiVietId).ToList());
+            return query;
         }
 
         public BaiVietDto GetById(int id)
@@ -108,7 +112,7 @@ namespace ThucTap.Application.Service
                         {
                             HinhAnhUrl = path,
                             BaiVietId = model.BaiVietId,
-                            UrlApi = UrlApi
+                            UrlApi = url
                         };
                         _hinhAnhBlogRepo.Create(hinh);
                     }
@@ -117,6 +121,15 @@ namespace ThucTap.Application.Service
             catch (Exception e)
             {
                 e.ToString();
+            }
+        }
+        public void deleteImage(int id)
+        {
+            var listImage=_hinhAnhBlogRepo.getAll().Where(x=>x.BaiVietId == id).ToList();
+            foreach (var item in listImage)
+            {
+                ServiceImage.deleteImage(item.HinhAnhUrl);
+                _hinhAnhBlogRepo.Delete(item.HinhAnhId);
             }
         }
     }

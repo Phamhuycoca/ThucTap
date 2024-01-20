@@ -16,6 +16,7 @@ namespace ThucTap.Application.IService
         bool Delete(int id);
         List<BlogListDto> getAllByIdKhoa(int id);
         List<BlogListDto> getBlogGanDay();
+        List<BlogListDto> GetAll();
         BlogDto GetNew();
         BlogListDto getByIdBlog(int id);
     }

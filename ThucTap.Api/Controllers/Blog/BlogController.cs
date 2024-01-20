@@ -17,7 +17,7 @@ namespace ThucTap.Api.Controllers.Blog
         [HttpGet]
         public IActionResult getAll()
         {
-            return Ok(_service.getAll());
+            return Ok(_service.GetAll());
         }
         [HttpPost]
         public IActionResult Create(BlogDto dto)

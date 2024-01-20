@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\Images\\150cd983-4337-4aee-a752-32191eaef9e5.jpg"
     },
     {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\17619e29-2724-468b-9bfe-39aff296be22.jpg",
-      "PackagePath": "staticwebassets\\Images\\17619e29-2724-468b-9bfe-39aff296be22.jpg"
-    },
-    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\1ebca91a-50ab-4084-8629-5e63fcef193c.jpg",
       "PackagePath": "staticwebassets\\Images\\1ebca91a-50ab-4084-8629-5e63fcef193c.jpg"
     },
@@ -57,8 +53,20 @@
       "PackagePath": "staticwebassets\\Images\\2e35060d-e2cf-40ad-9ec1-eeb0788d0d24.jpg"
     },
     {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\3c04ca95-125f-49c3-b97b-4b0e9ff12f01.jpg",
+      "PackagePath": "staticwebassets\\Images\\3c04ca95-125f-49c3-b97b-4b0e9ff12f01.jpg"
+    },
+    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\3c560d4a-cb83-4fe2-a8be-931036be0a0b.jpg",
       "PackagePath": "staticwebassets\\Images\\3c560d4a-cb83-4fe2-a8be-931036be0a0b.jpg"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\43f8ae04-aef0-42b1-956f-55d7ea908484.jpg",
+      "PackagePath": "staticwebassets\\Images\\43f8ae04-aef0-42b1-956f-55d7ea908484.jpg"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\45ec50f4-33e1-4375-8d40-ae11b9dd4714.jpg",
+      "PackagePath": "staticwebassets\\Images\\45ec50f4-33e1-4375-8d40-ae11b9dd4714.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\4a64bcad-0ab7-4bfc-9ca7-2c3daa2d66d2.jpg",
@@ -67,6 +75,10 @@
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\4ceab270-4da4-4c2f-ad75-35b03dc13360.jpg",
       "PackagePath": "staticwebassets\\Images\\4ceab270-4da4-4c2f-ad75-35b03dc13360.jpg"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\4e16afc8-0645-4fa5-9f0f-5b2fd4d6c691.jpg",
+      "PackagePath": "staticwebassets\\Images\\4e16afc8-0645-4fa5-9f0f-5b2fd4d6c691.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\510aa791-0bc1-41b7-a700-367693059be8.jpg",
@@ -101,16 +113,16 @@
       "PackagePath": "staticwebassets\\Images\\63d31658-0691-486b-a9ea-64c39787bfbe.jpg"
     },
     {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\6a96ab72-fca0-468f-91d3-48a467f11678.jpg",
+      "PackagePath": "staticwebassets\\Images\\6a96ab72-fca0-468f-91d3-48a467f11678.jpg"
+    },
+    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\70f31af5-e369-4d6c-8538-113b9a342447.png",
       "PackagePath": "staticwebassets\\Images\\70f31af5-e369-4d6c-8538-113b9a342447.png"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\7186d55f-2ce5-4996-bb9e-4186549bed1c.jpg",
       "PackagePath": "staticwebassets\\Images\\7186d55f-2ce5-4996-bb9e-4186549bed1c.jpg"
-    },
-    {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\71b0862b-9808-4256-920a-8140c4c08c6d.jpg",
-      "PackagePath": "staticwebassets\\Images\\71b0862b-9808-4256-920a-8140c4c08c6d.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\75e6bfd4-89eb-4d2b-9790-5e290ce7102c.jpg",
@@ -125,10 +137,6 @@
       "PackagePath": "staticwebassets\\Images\\78fdb0d1-7ac2-452e-b5a7-55d97a5e8908.jpg"
     },
     {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\86b72e62-ec07-4bbf-affa-20fa0e886585.jpg",
-      "PackagePath": "staticwebassets\\Images\\86b72e62-ec07-4bbf-affa-20fa0e886585.jpg"
-    },
-    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\86e2f0d9-a851-4170-a93f-a3a0d43f9c63.jpg",
       "PackagePath": "staticwebassets\\Images\\86e2f0d9-a851-4170-a93f-a3a0d43f9c63.jpg"
     },
@@ -137,12 +145,12 @@
       "PackagePath": "staticwebassets\\Images\\87685026-ffbf-4c0a-82b8-a6f836704e93.jpg"
     },
     {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\8a354223-3c34-44bb-aa55-768d9becb11e.jpg",
-      "PackagePath": "staticwebassets\\Images\\8a354223-3c34-44bb-aa55-768d9becb11e.jpg"
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\89299842-7758-4654-8240-6e633fee8820.jpg",
+      "PackagePath": "staticwebassets\\Images\\89299842-7758-4654-8240-6e633fee8820.jpg"
     },
     {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\8c728836-4ad3-48a1-b411-09271553ba2d.jpg",
-      "PackagePath": "staticwebassets\\Images\\8c728836-4ad3-48a1-b411-09271553ba2d.jpg"
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\8a354223-3c34-44bb-aa55-768d9becb11e.jpg",
+      "PackagePath": "staticwebassets\\Images\\8a354223-3c34-44bb-aa55-768d9becb11e.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\96396105-bf2b-4fba-8568-3d73b74f02f1.jpg",
@@ -151,6 +159,10 @@
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\97724d44-bac3-4988-932b-5335f4c34fd4.jpg",
       "PackagePath": "staticwebassets\\Images\\97724d44-bac3-4988-932b-5335f4c34fd4.jpg"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\97a81e52-4ca3-4ad1-938a-0900c9ec29ba.jpg",
+      "PackagePath": "staticwebassets\\Images\\97a81e52-4ca3-4ad1-938a-0900c9ec29ba.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\9979e893-0111-4e4b-98d5-1ad014eaa49e.png",
@@ -163,6 +175,10 @@
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\9f37e5e8-2b3d-41e2-8ea1-ba7fe5122fee.png",
       "PackagePath": "staticwebassets\\Images\\9f37e5e8-2b3d-41e2-8ea1-ba7fe5122fee.png"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\a3e9091d-6002-415d-a557-93a589a8d1cb.jpg",
+      "PackagePath": "staticwebassets\\Images\\a3e9091d-6002-415d-a557-93a589a8d1cb.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\a8c0ea24-5502-40e2-ba16-4e784ff6cfbf.jpg",
@@ -185,6 +201,10 @@
       "PackagePath": "staticwebassets\\Images\\b2d6fb6c-ecff-423a-b23a-af2694979e36.jpg"
     },
     {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\b5897e00-e749-4a6c-9545-c18bcc96e992.jpg",
+      "PackagePath": "staticwebassets\\Images\\b5897e00-e749-4a6c-9545-c18bcc96e992.jpg"
+    },
+    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\b8f2f596-8e0d-4bcd-bc42-329f2190e57e.jpg",
       "PackagePath": "staticwebassets\\Images\\b8f2f596-8e0d-4bcd-bc42-329f2190e57e.jpg"
     },
@@ -205,10 +225,6 @@
       "PackagePath": "staticwebassets\\Images\\c6964870-9274-4539-befd-bc860f911135.jpg"
     },
     {
-      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\c8f6782b-eddb-4e5b-beb1-becab2ffaf9f.jpg",
-      "PackagePath": "staticwebassets\\Images\\c8f6782b-eddb-4e5b-beb1-becab2ffaf9f.jpg"
-    },
-    {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\cadc4a05-d862-49f2-a65a-4be009b87362.jpg",
       "PackagePath": "staticwebassets\\Images\\cadc4a05-d862-49f2-a65a-4be009b87362.jpg"
     },
@@ -219,6 +235,10 @@
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\db2daeb8-896e-45d2-8743-9c3ceed7d26c.jpg",
       "PackagePath": "staticwebassets\\Images\\db2daeb8-896e-45d2-8743-9c3ceed7d26c.jpg"
+    },
+    {
+      "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\eb0ae5aa-461c-4148-ab5e-88dffa21455c.jpg",
+      "PackagePath": "staticwebassets\\Images\\eb0ae5aa-461c-4148-ab5e-88dffa21455c.jpg"
     },
     {
       "Id": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\eca663e1-8051-4d29-9e94-b0ab1b38e0bd.jpg",

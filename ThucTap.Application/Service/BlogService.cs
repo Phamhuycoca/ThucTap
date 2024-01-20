@@ -39,7 +39,7 @@ namespace ThucTap.Application.Service
 
         public List<BlogDto> getAll()
         {
-            return _mapper.Map<List<BlogDto>>(_repo.getAll());
+            return _mapper.Map<List<BlogDto>>(_repo.getAll().OrderByDescending(x => x.BlogId).ToList());
 
             // Sử dụng LINQ để lọc và sắp xếp các bài đăng theo thứ tự mới nhất.
 
@@ -146,5 +146,28 @@ namespace ThucTap.Application.Service
             return blogDto;
         }
 
+        public List<BlogListDto> GetAll()
+        {
+            var blogs = from blog in _repo.getAll()
+                        join
+                       taikhoan in _taikhoanService.getAll() on blog.TaiKhoanId equals taikhoan.TaiKhoanId
+                        join
+                       khoa in _khoaService.getAll() on blog.KhoaId equals khoa.KhoaId
+                        orderby blog.BlogId
+                        select new BlogList
+                        {
+                            BlogId = blog.BlogId,
+                            HoVaTen = taikhoan.HoVaTen,
+                            KhoaId = khoa.KhoaId,
+                            NgayDang = blog.NgayDang,
+                            TaiKhoanId = blog.TaiKhoanId,
+                            TenKhoa = khoa.TenKhoa,
+                            TieuDe = blog.TieuDe
+                        };
+            var recentBlogs = blogs
+                                  .OrderByDescending(blog => blog.BlogId)
+                                  .ToList();
+            return _mapper.Map<List<BlogListDto>>(recentBlogs);
+        }
     }
 }
