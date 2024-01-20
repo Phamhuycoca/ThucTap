@@ -125,5 +125,26 @@ namespace ThucTap.Application.Service
                 return new List<BlogListDto>();
             }
         }
+
+        public BlogListDto getByIdBlog(int id)
+        {
+            var blogDto = (from blog in _repo.getAll()
+                           join taikhoan in _taikhoanService.getAll() on blog.TaiKhoanId equals taikhoan.TaiKhoanId
+                           join khoa in _khoaService.getAll() on blog.KhoaId equals khoa.KhoaId
+                           where blog.BlogId == id
+                           select new BlogListDto
+                           {
+                               BlogId = blog.BlogId,
+                               HoVaTen = taikhoan.HoVaTen,
+                               KhoaId = khoa.KhoaId,
+                               NgayDang = blog.NgayDang,
+                               TaiKhoanId = blog.TaiKhoanId,
+                               TenKhoa = khoa.TenKhoa,
+                               TieuDe = blog.TieuDe
+                           }).SingleOrDefault();
+
+            return blogDto;
+        }
+
     }
 }

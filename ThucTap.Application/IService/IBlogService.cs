@@ -17,5 +17,6 @@ namespace ThucTap.Application.IService
         List<BlogListDto> getAllByIdKhoa(int id);
         List<BlogListDto> getBlogGanDay();
         BlogDto GetNew();
+        BlogListDto getByIdBlog(int id);
     }
 }

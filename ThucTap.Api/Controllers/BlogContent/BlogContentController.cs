@@ -85,5 +85,10 @@ namespace ThucTap.Api.Controllers.BlogContent
             _service.UpdateBlogContent(dto, listFile,model.HinhAnhBlogList,url);
                 return Ok(new {model,listFile});
         }
+       [HttpGet("getByIdBlog/{id}")] 
+        public IActionResult getByIdBlog(int id)
+        {
+            return Ok(_service.getByIdBlog(id));
+        }
     }
 }

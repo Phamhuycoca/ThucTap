@@ -20,5 +20,6 @@ namespace ThucTap.Domain.Entities
         public Khoa? khoa { get; set;}
         public ICollection<BaiViet>? baiBiets { get; set;}
         public ICollection<Blog>? blogs { get; set;}
+        public ICollection<CommentBlog>? commentBlogs { get; set;}
     }
 }

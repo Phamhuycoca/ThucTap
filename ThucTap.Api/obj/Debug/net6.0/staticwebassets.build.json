@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3n7Vjkq5BsaMcQasZFv4wFB4ypBG4ltNqdKlCClrKpA=",
+  "Hash": "cBhK+RLt+B4tR/7LjyXWyaeA1837mQn7Qlkr4KX1D5k=",
   "Source": "ThucTap.Api",
   "BasePath": "_content/ThucTap.Api",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\1164d2f2-17f4-46ff-8607-eb33e86b6398.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\14bee810-fb9a-4b47-bf79-a1d5f2e016ed.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/14bee810-fb9a-4b47-bf79-a1d5f2e016ed.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\14bee810-fb9a-4b47-bf79-a1d5f2e016ed.jpg"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\150cd983-4337-4aee-a752-32191eaef9e5.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -85,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\150cd983-4337-4aee-a752-32191eaef9e5.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\17619e29-2724-468b-9bfe-39aff296be22.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/17619e29-2724-468b-9bfe-39aff296be22.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\17619e29-2724-468b-9bfe-39aff296be22.jpg"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\1ebca91a-50ab-4084-8629-5e63fcef193c.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\1ebca91a-50ab-4084-8629-5e63fcef193c.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\2185eb85-0ce2-4ea4-bd3b-cb8dffa86547.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/2185eb85-0ce2-4ea4-bd3b-cb8dffa86547.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2185eb85-0ce2-4ea4-bd3b-cb8dffa86547.jpg"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\218f0416-d80c-450b-84ca-79116ace70f9.jpg",
@@ -151,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\26a103a9-95be-418c-95dd-60a263339fdb.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\279b01f1-7ca5-4429-ab20-86876e029a6f.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/279b01f1-7ca5-4429-ab20-86876e029a6f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\279b01f1-7ca5-4429-ab20-86876e029a6f.jpg"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\295fb82e-2425-4ebd-a064-d07e43dbb393.jpg",
@@ -219,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\4a64bcad-0ab7-4bfc-9ca7-2c3daa2d66d2.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\4ceab270-4da4-4c2f-ad75-35b03dc13360.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/4ceab270-4da4-4c2f-ad75-35b03dc13360.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\4ceab270-4da4-4c2f-ad75-35b03dc13360.jpg"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\510aa791-0bc1-41b7-a700-367693059be8.jpg",
@@ -357,6 +442,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\63d31658-0691-486b-a9ea-64c39787bfbe.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\70f31af5-e369-4d6c-8538-113b9a342447.png",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/70f31af5-e369-4d6c-8538-113b9a342447.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\70f31af5-e369-4d6c-8538-113b9a342447.png"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\7186d55f-2ce5-4996-bb9e-4186549bed1c.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -372,6 +474,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\7186d55f-2ce5-4996-bb9e-4186549bed1c.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\71b0862b-9808-4256-920a-8140c4c08c6d.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/71b0862b-9808-4256-920a-8140c4c08c6d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\71b0862b-9808-4256-920a-8140c4c08c6d.jpg"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\75e6bfd4-89eb-4d2b-9790-5e290ce7102c.jpg",
@@ -425,6 +544,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\78fdb0d1-7ac2-452e-b5a7-55d97a5e8908.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\86b72e62-ec07-4bbf-affa-20fa0e886585.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/86b72e62-ec07-4bbf-affa-20fa0e886585.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\86b72e62-ec07-4bbf-affa-20fa0e886585.jpg"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\86e2f0d9-a851-4170-a93f-a3a0d43f9c63.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -476,6 +612,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\8a354223-3c34-44bb-aa55-768d9becb11e.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\8c728836-4ad3-48a1-b411-09271553ba2d.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/8c728836-4ad3-48a1-b411-09271553ba2d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\8c728836-4ad3-48a1-b411-09271553ba2d.jpg"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\96396105-bf2b-4fba-8568-3d73b74f02f1.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -510,6 +663,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\97724d44-bac3-4988-932b-5335f4c34fd4.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\9979e893-0111-4e4b-98d5-1ad014eaa49e.png",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/9979e893-0111-4e4b-98d5-1ad014eaa49e.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9979e893-0111-4e4b-98d5-1ad014eaa49e.png"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\9c536de0-dd9a-4244-8d9b-6239fb109008.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -525,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\9c536de0-dd9a-4244-8d9b-6239fb109008.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\9f37e5e8-2b3d-41e2-8ea1-ba7fe5122fee.png",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/9f37e5e8-2b3d-41e2-8ea1-ba7fe5122fee.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9f37e5e8-2b3d-41e2-8ea1-ba7fe5122fee.png"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\a8c0ea24-5502-40e2-ba16-4e784ff6cfbf.jpg",
@@ -595,6 +782,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\afdedb3e-9c69-4681-aedb-da32c6efec16.jpg"
     },
     {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\b2d6fb6c-ecff-423a-b23a-af2694979e36.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/b2d6fb6c-ecff-423a-b23a-af2694979e36.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b2d6fb6c-ecff-423a-b23a-af2694979e36.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\b8f2f596-8e0d-4bcd-bc42-329f2190e57e.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/b8f2f596-8e0d-4bcd-bc42-329f2190e57e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b8f2f596-8e0d-4bcd-bc42-329f2190e57e.jpg"
+    },
+    {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\bdc37006-5f0f-4e0a-a5eb-376e952ed833.jpg",
       "SourceId": "ThucTap.Api",
       "SourceType": "Discovered",
@@ -661,6 +882,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\c6964870-9274-4539-befd-bc860f911135.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\c8f6782b-eddb-4e5b-beb1-becab2ffaf9f.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/c8f6782b-eddb-4e5b-beb1-becab2ffaf9f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c8f6782b-eddb-4e5b-beb1-becab2ffaf9f.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\cadc4a05-d862-49f2-a65a-4be009b87362.jpg",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/cadc4a05-d862-49f2-a65a-4be009b87362.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\cadc4a05-d862-49f2-a65a-4be009b87362.jpg"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\ce94cc39-2eca-407d-870b-03d8d0c8e708.jpg",
@@ -746,6 +1001,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\f114d868-6915-4048-97de-7b16ec1688aa.jpg"
+    },
+    {
+      "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\f88b3653-720d-4ead-83d8-02204c5f3530.png",
+      "SourceId": "ThucTap.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\",
+      "BasePath": "_content/ThucTap.Api",
+      "RelativePath": "Images/f88b3653-720d-4ead-83d8-02204c5f3530.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f88b3653-720d-4ead-83d8-02204c5f3530.png"
     },
     {
       "Identity": "F:\\DuAnNho\\DoHoangLong\\ThucTap\\ThucTap.Api\\wwwroot\\Images\\faffbe0e-d09b-41d5-a14a-e07143167a10.jpg",

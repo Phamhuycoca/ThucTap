@@ -80,7 +80,6 @@ namespace ThucTap.Application.Service
                     NoiDungBlogId = model.NoiDungBlogId
                 };
                 _repo.Update(_mapper.Map<NoiDungBlog>(model));
-                //var NoiDungBlogId = _repo.getAll().Where(x=>x.NoiDungBlogId==model.NoiDungBlogId).FirstOrDefault();
                 foreach (var item in listFileDelete)
                 {
                     //DeleteHinhAnhBlogById(item.HinhAnhBlogId);
@@ -148,6 +147,12 @@ namespace ThucTap.Application.Service
         public bool Update(NoiDungBlogDto dto)
         {
             return _repo.Update(_mapper.Map<NoiDungBlog>(dto));
+        }
+
+        public List<NoiDungBlogDto> getByIdBlog(int id)
+        {
+            var query= _mapper.Map<List<NoiDungBlogDto>>(_repo.getAll().Where(x=>x.BlogId==id));
+            return query.ToList();
         }
     }
 }

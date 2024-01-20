@@ -22,7 +22,8 @@ namespace ThucTap.Api.Controllers.Blog
         [HttpPost]
         public IActionResult Create(BlogDto dto)
         {
-            dto.NgayDang = DateTime.Today;
+            DateTime now = DateTime.Now;
+            dto.NgayDang = DateTime.Today.AddDays(1).AddHours(now.Hour).AddMinutes(now.Minute).AddSeconds(now.Second);
             if (_service.Create(dto))
             {
                 return Ok("Thêm mới thông tin thành công");
@@ -66,6 +67,11 @@ namespace ThucTap.Api.Controllers.Blog
         public IActionResult getAllByIdKhoa(int id)
         {
             return Ok(_service.getAllByIdKhoa(id));
+        }
+        [HttpGet("getByIdBlog/{id}")]
+        public IActionResult getByIdBlog(int id)
+        {
+            return Ok(_service.getByIdBlog(id));
         }
     }
 }

@@ -23,6 +23,7 @@ namespace ThucTap.Application.Mapper
             CreateMap<NoiDungBlog, NoiDungBlogDto>().ReverseMap();
             CreateMap<HinhAnhBlog, HinhAnhBlogDto>().ReverseMap();
             CreateMap<BlogList, BlogListDto>().ReverseMap();
+            CreateMap<CommentBlog, CommentBlogDto>().ReverseMap();
         }
     }
 }

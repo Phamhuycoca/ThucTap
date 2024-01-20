@@ -21,6 +21,7 @@ namespace ThucTap.Application.IService
         void CreateBlogContent(BlogContentCreate model, IList<IFormFile> listFile);
         void UpdateBlogContent(NoiDungBlogDto model, IList<IFormFile> listFile, List<HinhAnhBlog> listFileDelete, string url);
         void DeleteHinhAnhBlogById(int id);
+        List<NoiDungBlogDto> getByIdBlog(int id);
 
     }
 }

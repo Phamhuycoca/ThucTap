@@ -28,6 +28,9 @@ namespace ThucTap.Application.Modules
             services.AddScoped<INoiDungBlogService, NoiDungBlogService>();
             services.AddScoped<IHinhAnhBlogService, HinhAnhBlogService>();
             services.AddScoped<ITaiKhoanService, TaiKhoanService>();
+            services.AddScoped<ICommentBlogService, CommentBlogService>();
+            services.AddScoped<IHinhAnhBaiVietService,HinhAnhBaiVietService>();
+            services.AddScoped<IBaiVietService, BaiVietService>();
             return services;
         }
     }
