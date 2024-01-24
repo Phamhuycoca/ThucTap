@@ -31,6 +31,7 @@ namespace ThucTap.Application.Modules
             services.AddScoped<ICommentBlogService, CommentBlogService>();
             services.AddScoped<IHinhAnhBaiVietService,HinhAnhBaiVietService>();
             services.AddScoped<IBaiVietService, BaiVietService>();
+            services.AddScoped<ICommentBaiVietService, CommentBaiVietService>();
             return services;
         }
     }

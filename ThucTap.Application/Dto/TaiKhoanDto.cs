@@ -10,9 +10,10 @@ namespace ThucTap.Application.Dto
     {
         public int TaiKhoanId { get; set; }
         public string? HoVaTen { get; set; }
+        public string? HinhAnhUrl { get; set; }
+        public string? urlApi {  get; set; }
         public bool? GioiTinh { get; set; }
         public string? DiaChi { get; set; }
-        public string? HinhAnhUrl { get; set; }
         public int? KhoaId { get; set; }
         public string Email { get; set; }
         public string MatKhau { get; set; }

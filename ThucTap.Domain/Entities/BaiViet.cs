@@ -16,5 +16,6 @@ namespace ThucTap.Domain.Entities
         public int? TrangThaiBaiViet {  get; set; }
         public TaiKhoan? taiKhoan { get; set;}
         public ICollection<HinhAnhBaiViet>? hinhAnh { get; set; }
+        public ICollection<CommentBaiViet>? commentBaiViets { get; set; }
     }
 }

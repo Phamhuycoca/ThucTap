@@ -16,6 +16,10 @@ namespace ThucTap.Api.Controllers.BaiViet
         {
             _service = service;
         }
+        [HttpGet("GetAllBaiViet")]
+        public IActionResult GetAllBaiViet() {
+            return Ok(_service.GetAll());
+        }
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -63,6 +67,11 @@ namespace ThucTap.Api.Controllers.BaiViet
                 ex.ToString();
                 return BadRequest("Không thể thực hiện thao tác");
             }
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            return Ok(_service.GetByIdDetail(id));
         }
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)

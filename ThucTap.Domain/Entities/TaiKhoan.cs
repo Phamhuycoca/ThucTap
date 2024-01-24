@@ -13,6 +13,7 @@ namespace ThucTap.Domain.Entities
         public bool? GioiTinh { get; set;}
         public string? DiaChi { get; set;}
         public string? HinhAnhUrl { get; set;}
+        public string? urlApi { get; set; }
         public int? KhoaId { get; set;}
         public string Email {  get; set;}
         public string MatKhau { get; set;}
@@ -21,5 +22,7 @@ namespace ThucTap.Domain.Entities
         public ICollection<BaiViet>? baiBiets { get; set;}
         public ICollection<Blog>? blogs { get; set;}
         public ICollection<CommentBlog>? commentBlogs { get; set;}
+        public ICollection<CommentBaiViet>? commentBaiViets { get; set; }
+
     }
 }

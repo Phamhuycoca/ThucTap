@@ -19,7 +19,8 @@ namespace ThucTap.Application.IService
         bool Delete(int id);
         void CreateBaiViet(BaiVietCreate model, IList<IFormFile> listFile);
         void UpdateBaiViet(BaiVietDto model, IList<IFormFile> listFile, List<HinhAnhBaiViet> listFileDelete, string url);
-
+        List<BaiVietList> GetAll();
+        BaiVietList GetByIdDetail(int id);
 
     }
 }

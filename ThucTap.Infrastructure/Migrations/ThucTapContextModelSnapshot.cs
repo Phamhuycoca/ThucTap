@@ -81,6 +81,35 @@ namespace ThucTap.Infrastructure.Migrations
                     b.ToTable("Blog", (string)null);
                 });
 
+            modelBuilder.Entity("ThucTap.Domain.Entities.CommentBaiViet", b =>
+                {
+                    b.Property<int>("CommentBaiVietId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentBaiVietId"), 1L, 1);
+
+                    b.Property<int>("BaiVietId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("NgayComment")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NoiDungComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TaiKhoanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CommentBaiVietId");
+
+                    b.HasIndex("BaiVietId");
+
+                    b.HasIndex("TaiKhoanId");
+
+                    b.ToTable("CommentBaiViet", (string)null);
+                });
+
             modelBuilder.Entity("ThucTap.Domain.Entities.CommentBlog", b =>
                 {
                     b.Property<int>("CommentBlogId")
@@ -251,6 +280,9 @@ namespace ThucTap.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("urlApi")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("TaiKhoanId");
 
                     b.HasIndex("KhoaId");
@@ -280,6 +312,23 @@ namespace ThucTap.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("khoa");
+
+                    b.Navigation("taiKhoan");
+                });
+
+            modelBuilder.Entity("ThucTap.Domain.Entities.CommentBaiViet", b =>
+                {
+                    b.HasOne("ThucTap.Domain.Entities.BaiViet", "baiViet")
+                        .WithMany("commentBaiViets")
+                        .HasForeignKey("BaiVietId")
+                        .IsRequired();
+
+                    b.HasOne("ThucTap.Domain.Entities.TaiKhoan", "taiKhoan")
+                        .WithMany("commentBaiViets")
+                        .HasForeignKey("TaiKhoanId")
+                        .IsRequired();
+
+                    b.Navigation("baiViet");
 
                     b.Navigation("taiKhoan");
                 });
@@ -352,6 +401,8 @@ namespace ThucTap.Infrastructure.Migrations
 
             modelBuilder.Entity("ThucTap.Domain.Entities.BaiViet", b =>
                 {
+                    b.Navigation("commentBaiViets");
+
                     b.Navigation("hinhAnh");
                 });
 
@@ -381,6 +432,8 @@ namespace ThucTap.Infrastructure.Migrations
                     b.Navigation("baiBiets");
 
                     b.Navigation("blogs");
+
+                    b.Navigation("commentBaiViets");
 
                     b.Navigation("commentBlogs");
                 });
