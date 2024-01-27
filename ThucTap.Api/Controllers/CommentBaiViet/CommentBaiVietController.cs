@@ -11,9 +11,13 @@ namespace ThucTap.Api.Controllers.CommentBaiViet
     public class CommentBaiVietController : ControllerBase
     {
         private readonly ICommentBaiVietService _service;
-        public CommentBaiVietController(ICommentBaiVietService service)
+        private readonly INotiService _otiService;
+        private readonly IBaiVietService _baiVietService;
+        public CommentBaiVietController(ICommentBaiVietService service, INotiService otiService, IBaiVietService baiVietService)
         {
             _service = service;
+            _otiService = otiService;
+            _baiVietService = baiVietService;
         }
         [HttpGet]
         public IActionResult getAll()
@@ -23,12 +27,26 @@ namespace ThucTap.Api.Controllers.CommentBaiViet
         [Authorize]
         [HttpPost]
         public IActionResult Create(CommentBaiVietDto dto)
-        {
+         {
             DateTime now = DateTime.Now;
             dto.NgayComment = DateTime.Today.AddDays(1).AddHours(now.Hour).AddMinutes(now.Minute).AddSeconds(now.Second);
             if (_service.Create(dto))
             {
-                return Ok("Bình luận thành công");
+                var idTaiKhoan=_baiVietService.GetById(dto.BaiVietId).TaiKhoanId;
+                NotiDto noti = new NotiDto()
+                {
+                    BaiVietId = dto.BaiVietId,
+                    BlogId = null,
+                    NotiDatetime = DateTime.Today.AddDays(1).AddHours(now.Hour).AddMinutes(now.Minute).AddSeconds(now.Second),
+                    TaiKhoanId = idTaiKhoan,
+                    TrangThai = 0,
+                    TaiKhoanComment=dto.TaiKhoanId
+                };
+                if (_otiService.Create(noti))
+                {
+                    return Ok("Bình luận thành công");
+                }
+
             }
             return BadRequest("Không thể thực hiện thao tác");
         }

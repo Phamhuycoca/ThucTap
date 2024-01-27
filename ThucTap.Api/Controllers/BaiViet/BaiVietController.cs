@@ -16,9 +16,9 @@ namespace ThucTap.Api.Controllers.BaiViet
         {
             _service = service;
         }
-        [HttpGet("GetAllBaiViet")]
-        public IActionResult GetAllBaiViet() {
-            return Ok(_service.GetAll());
+        [HttpGet("GetAllBaiViet/{id}")]
+        public IActionResult GetAllBaiViet(int id) {
+            return Ok(_service.GetAll(id));
         }
         [HttpGet]
         public IActionResult GetAll()

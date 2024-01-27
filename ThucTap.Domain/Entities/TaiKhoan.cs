@@ -23,6 +23,8 @@ namespace ThucTap.Domain.Entities
         public ICollection<Blog>? blogs { get; set;}
         public ICollection<CommentBlog>? commentBlogs { get; set;}
         public ICollection<CommentBaiViet>? commentBaiViets { get; set; }
+        public ICollection<Noti>? Notis { get; set; }
+
 
     }
 }

@@ -26,6 +26,7 @@ namespace ThucTap.Application.Mapper
             CreateMap<CommentBlog, CommentBlogDto>().ReverseMap();
             CreateMap<BaiVietList,BaiVietListDto>().ReverseMap();
             CreateMap<CommentBaiViet,CommentBaiVietDto>().ReverseMap();
+            CreateMap<Noti, NotiDto>().ReverseMap();
         }
     }
 }

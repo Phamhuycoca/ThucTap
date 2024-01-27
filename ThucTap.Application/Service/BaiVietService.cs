@@ -135,9 +135,9 @@ namespace ThucTap.Application.Service
             }
         }
 
-        public List<BaiVietList> GetAll()
+        public List<BaiVietList> GetAll(int id)
         {
-            var query = from baiviet in _mapper.Map<List<BaiVietDto>>(_repo.getAll().OrderByDescending(x => x.BaiVietId).ToList())
+            var query = from baiviet in _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x=>x.TaiKhoanId==id).OrderByDescending(x => x.BaiVietId).ToList())
                         join taikhoan in _tiKhoanService.getAll() on baiviet.TaiKhoanId equals taikhoan.TaiKhoanId
                         select new BaiVietList
                         {

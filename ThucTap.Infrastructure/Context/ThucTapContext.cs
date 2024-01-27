@@ -24,6 +24,7 @@ namespace ThucTap.Infrastructure.Context
         public virtual DbSet<HinhAnhBlog> HinhAnhBlogs { get; set; }
         public virtual DbSet<CommentBlog> CommentBlogs { get; set; }
         public virtual DbSet<CommentBaiViet> CommentBaiViets { get; set; }
+        public virtual DbSet<Noti> Notis { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Khoa>(e =>
@@ -86,6 +87,15 @@ namespace ThucTap.Infrastructure.Context
                 e.HasKey(e => e.CommentBaiVietId);
                 e.HasOne(e => e.baiViet).WithMany(e => e.commentBaiViets).HasForeignKey(e => e.BaiVietId).OnDelete(DeleteBehavior.ClientSetNull);
                 e.HasOne(e => e.taiKhoan).WithMany(e => e.commentBaiViets).HasForeignKey(e => e.TaiKhoanId).OnDelete(DeleteBehavior.ClientSetNull);
+            });
+            modelBuilder.Entity<Noti>(e =>
+            {
+                e.ToTable("Noti");
+                e.HasKey(e => e.NotiId);
+                e.HasOne(e => e.baiViet).WithMany(e => e.Notis).HasForeignKey(e => e.BaiVietId).OnDelete(DeleteBehavior.ClientSetNull);
+                e.HasOne(e => e.blog).WithMany(e => e.Notis).HasForeignKey(e => e.BlogId).OnDelete(DeleteBehavior.ClientSetNull);
+                e.HasOne(e => e.taiKhoan).WithMany(e => e.Notis).HasForeignKey(e => e.TaiKhoanId).OnDelete(DeleteBehavior.ClientSetNull);
+
             });
             base.OnModelCreating(modelBuilder);
         }

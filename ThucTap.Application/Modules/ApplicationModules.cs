@@ -32,6 +32,7 @@ namespace ThucTap.Application.Modules
             services.AddScoped<IHinhAnhBaiVietService,HinhAnhBaiVietService>();
             services.AddScoped<IBaiVietService, BaiVietService>();
             services.AddScoped<ICommentBaiVietService, CommentBaiVietService>();
+            services.AddScoped<INotiService, NotiService>();
             return services;
         }
     }

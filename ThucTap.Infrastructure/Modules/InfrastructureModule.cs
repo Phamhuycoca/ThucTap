@@ -23,6 +23,8 @@ namespace ThucTap.Infrastructure.Modules
             services.AddScoped<IBaiVietRepo, BaiVietRepo>();
             services.AddScoped<IHinhAnhBaiVietRepo, HinhAnhBaiVietRepo>();
             services.AddScoped<ICommentBaiVietRepo, CommentBaiVietRepo>();
+            services.AddScoped<INotiRepo, NotiRepo>();
+
             return services;
         }
     }
