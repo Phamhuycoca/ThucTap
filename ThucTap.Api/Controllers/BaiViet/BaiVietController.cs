@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ThucTap.Application.Dto;
 using ThucTap.Application.IService;
+using ThucTap.Application.Service;
 using ThucTap.Domain.ViewModels;
 
 namespace ThucTap.Api.Controllers.BaiViet
@@ -15,6 +16,11 @@ namespace ThucTap.Api.Controllers.BaiViet
         public BaiVietController(IBaiVietService service)
         {
             _service = service;
+        }
+        [HttpGet("getAllBaiViet")]
+        public IActionResult getAllBaiViet()
+        {
+            return Ok(_service.getAllBaiViet());
         }
         [HttpGet("GetAllBaiViet/{id}")]
         public IActionResult GetAllBaiViet(int id) {
@@ -77,6 +83,28 @@ namespace ThucTap.Api.Controllers.BaiViet
         public IActionResult Delete(int id)
         {
             return Ok(_service.Delete(id));
+        }
+        [HttpPost("DuyetBaiViet")]
+        public IActionResult DuyetBaiViet([FromBody] IList<BaiVietDto> list)
+        {
+            try
+            {
+                foreach (BaiVietDto dto in list)
+                {
+                    dto.TrangThaiBaiViet = 1;
+                    _service.Update(dto);
+                }
+                return Ok("Duyệt thành công");
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+        [HttpGet("getAllBaiVietss")]
+        public IActionResult getAllBaiVietss()
+        {
+            return Ok(_service.getAllBaiVietss());
         }
     }
 }

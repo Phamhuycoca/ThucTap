@@ -117,6 +117,12 @@ namespace ThucTap.Application.Service
 
         public bool Delete(int id)
         {
+            var hinhanh=_hinhAnhBlogService.getAll().Where(x=>x.NoiDungBlogId == id);
+            foreach(var item in hinhanh)
+            {
+                ServiceImage.deleteImage(item.HinhAnhBlogUrl);
+                _hinhAnhBlogService.Delete(item.HinhAnhBlogId);
+            }
             return _repo.Delete(id);
         }
 

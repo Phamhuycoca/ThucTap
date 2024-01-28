@@ -19,12 +19,21 @@ namespace ThucTap.Application.Service
         private readonly IMapper _mapper;
         private readonly ITaiKhoanService _taikhoanService;
         private readonly IKhoaService _khoaService;
-        public BlogService(IBlogRepo repo, IMapper mapper, ITaiKhoanService taikhoanService, IKhoaService khoaService)
+        private readonly INotiRepo _otiRepo;
+        private readonly INoiDungBlogRepo _nutiDungBlogService;
+        private readonly IHinhAnhBlogRepo _hinhAnhBlogRepo;
+        private readonly ICommentBlogRepo _commentBlogRepo;
+           
+        public BlogService(IBlogRepo repo, IMapper mapper, ITaiKhoanService taikhoanService, IKhoaService khoaService, INotiRepo otiRepo, INoiDungBlogRepo noiDungBlogService,IHinhAnhBlogRepo hinhAnhBlogRepo,ICommentBlogRepo commentBlogRepo)
         {
             _mapper = mapper;
             _repo = repo;
             _taikhoanService = taikhoanService;
             _khoaService = khoaService;
+            _otiRepo = otiRepo;
+            _nutiDungBlogService = noiDungBlogService;
+            _hinhAnhBlogRepo = hinhAnhBlogRepo;
+            _commentBlogRepo = commentBlogRepo;
         }
 
         public bool Create(BlogDto dto)
@@ -34,6 +43,26 @@ namespace ThucTap.Application.Service
 
         public bool Delete(int id)
         {
+            var noti=_otiRepo.getAll().Where(x=>x.BlogId==id);
+            foreach(var item in noti)
+            {
+                _otiRepo.Delete(item.NotiId);
+            }
+            var noidung = _nutiDungBlogService.getAll().Where(x => x.BlogId == id);
+            foreach(var item in noidung)
+            {
+                var hinhanh = _hinhAnhBlogRepo.getAll().Where(x => x.NoiDungBlogId == item.NoiDungBlogId);
+                foreach(var hin in hinhanh)
+                {
+                    _hinhAnhBlogRepo.Delete(hin.HinhAnhBlogId);
+                }
+                _nutiDungBlogService.Delete(item.NoiDungBlogId);
+            }
+            var comments = _commentBlogRepo.getAll().Where(x => x.BlogId == id);
+            foreach(var comment in comments)
+            {
+                _commentBlogRepo.Delete(comment.CommentBlogId);
+            }
             return _repo.Delete(id);
         }
 

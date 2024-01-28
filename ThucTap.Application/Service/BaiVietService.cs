@@ -43,7 +43,7 @@ namespace ThucTap.Application.Service
                 NoiDung = model.NoiDung,
                 TaiKhoanId = model.TaiKhoanId,
                 TieuDe = model.TieuDe,
-                TrangThaiBaiViet = 1
+                TrangThaiBaiViet = 0
             };
             _repo.Create(_mapper.Map<BaiViet>(baiviet));
             var BaiVietId = _repo.getAll().LastOrDefault().BaiVietId;
@@ -72,7 +72,7 @@ namespace ThucTap.Application.Service
         public List<BaiVietDto> getAll()
         {
             DateTime daysAgo = DateTime.Now.AddDays(-14);
-            var query= _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x=>x.NgayDang>=daysAgo).OrderByDescending(x=>x.BaiVietId).ToList());
+            var query= _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x=>x.NgayDang>=daysAgo && x.TrangThaiBaiViet==1).OrderByDescending(x=>x.BaiVietId).ToList());
             return query;
         }
 
@@ -173,6 +173,43 @@ namespace ThucTap.Application.Service
                         };
 
             return query.SingleOrDefault();
+        }
+
+        public List<BaiVietList> getAllBaiViet()
+        {
+            var query = from baiviet in _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x=>x.TrangThaiBaiViet==0).OrderByDescending(x => x.BaiVietId).ToList())
+                        join taikhoan in _tiKhoanService.getAll() on baiviet.TaiKhoanId equals taikhoan.TaiKhoanId
+                        select new BaiVietList
+                        {
+                            BaiVietId = baiviet.BaiVietId,
+                            HinhAnhUrl = taikhoan.HinhAnhUrl,
+                            HoVaTen = taikhoan.HoVaTen,
+                            NgayDang = baiviet.NgayDang,
+                            NoiDung = baiviet.NoiDung,
+                            TaiKhoanId = taikhoan.TaiKhoanId,
+                            TieuDe = baiviet.TieuDe,
+                            TrangThaiBaiViet = baiviet.TrangThaiBaiViet,
+                            urlApi = taikhoan.urlApi
+                        };
+            return query.ToList();
+        }
+        public List<BaiVietList> getAllBaiVietss()
+        {
+            var query = from baiviet in _mapper.Map<List<BaiVietDto>>(_repo.getAll().Where(x => x.TrangThaiBaiViet == 1).OrderByDescending(x => x.BaiVietId).ToList())
+                        join taikhoan in _tiKhoanService.getAll() on baiviet.TaiKhoanId equals taikhoan.TaiKhoanId
+                        select new BaiVietList
+                        {
+                            BaiVietId = baiviet.BaiVietId,
+                            HinhAnhUrl = taikhoan.HinhAnhUrl,
+                            HoVaTen = taikhoan.HoVaTen,
+                            NgayDang = baiviet.NgayDang,
+                            NoiDung = baiviet.NoiDung,
+                            TaiKhoanId = taikhoan.TaiKhoanId,
+                            TieuDe = baiviet.TieuDe,
+                            TrangThaiBaiViet = baiviet.TrangThaiBaiViet,
+                            urlApi = taikhoan.urlApi
+                        };
+            return query.ToList();
         }
     }
 }

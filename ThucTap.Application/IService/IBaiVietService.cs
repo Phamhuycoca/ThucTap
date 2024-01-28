@@ -21,6 +21,8 @@ namespace ThucTap.Application.IService
         void UpdateBaiViet(BaiVietDto model, IList<IFormFile> listFile, List<HinhAnhBaiViet> listFileDelete, string url);
         List<BaiVietList> GetAll(int id);
         BaiVietList GetByIdDetail(int id);
+        List<BaiVietList> getAllBaiViet();
+        List<BaiVietList> getAllBaiVietss();
 
     }
 }
